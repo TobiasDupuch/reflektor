@@ -2,3 +2,5 @@
 /build/*
 /node_modules/*
 src/firebase.js
+.firebaserc
+.firebase/hosting.YnVpbGQ.cache
