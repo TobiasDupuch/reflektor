@@ -1,0 +1,98 @@
+.Settings{
+  color: #D9FF42;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.line{
+  box-sizing: border-box;
+  display: flex;
+
+  line-height:41px;
+
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+  height: 40px;
+
+  margin-top: 3px;
+}
+
+.highlight{
+  background: #D9FF42;
+  color: black;
+}
+
+.right{
+  padding-left: 2px;
+  margin-left: -2px;
+  flex-grow: 1;
+}
+
+.inline-right{
+  margin-left: 5px;
+}
+
+.left{
+  margin-left: -20px;
+  padding-left: 20px;
+
+  padding-right: 2px;
+}
+
+.inline-left{
+  margin-right: 5px;
+}
+
+.middle{
+  padding-left: 2px;
+  margin-left: 5px;
+  padding-right: 2px;
+}
+
+.alert-container{
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: auto;
+  display: flex;
+  width: 50px;
+  transition: none;
+  flex-grow: 1;
+
+  justify-content: center;
+}
+
+.alert{
+  display: flex;
+  margin-top: -32px;
+}
+
+.alert-container p{
+  font-size: 25px;
+  font-family: 'Heebo', sans-serif;
+}
+
+.alertSignSvg{
+  margin-top: -12px;
+  margin-right: 2px;
+}
+
+.zero{
+    width: 100vw;
+    align-items: center;
+
+}
+
+.alert.zero{
+  width: auto;
+}
+
+.searchButton{
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+}

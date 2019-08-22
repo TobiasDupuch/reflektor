@@ -1,0 +1,199 @@
+.Parkour{
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: black;
+  color: #96D668;
+  padding-top: 10px;
+}
+
+.Parkour .highlight{
+  background: #96D668;
+}
+
+.stufe-gross{
+  font-size: 288px;
+  text-align: center;
+  line-height: 220px;
+  padding-top: 0px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.sektor-gross{
+  text-align: center;
+}
+
+.squeezer{
+  height: 4%;
+}
+
+.problem-number{
+  margin-bottom: 10px;
+}
+
+.map{
+  position: absolute;
+  top:0;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+  background-color: black;
+}
+
+.invisible{
+  display: none;
+}
+
+.map-clicker{
+  position: absolute;
+  top:0;
+  width: 100vw;
+  height: 100vh;
+  background: red;
+  opacity: 0;
+}
+
+.schrauber-info{
+  position: absolute;
+  bottom: 30px;
+  width: 100vw;
+  text-align: center;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+}
+
+/* SECTOR MAPS */
+.walfisch{
+  background-image: url("./walfisch.png");
+}
+
+.promenade{
+  background-image: url("./promenade.png");
+}
+
+.zerstörer{
+  background-image: url("./zerstörer.png");
+}
+
+.gummiboot{
+  background-image: url("./gummiboot.png");
+}
+
+.monoblock{
+  background-image: url("./monoblock.png");
+}
+
+.nocino{
+  background-image: url("./nocino.png");
+}
+
+.formaggini{
+  background-image: url("./formaggini.png");
+}
+
+.findling{
+  background-image: url("./findling.png");
+}
+
+.amboss{
+  background-image: url("./amboss.png");
+}
+
+.welle{
+  background-image: url("./welle.png");
+}
+
+.flamme{
+  background-image: url("./flamme.png");
+}
+
+.ikarus{
+  background-image: url("./ikarus.png");
+}
+
+.supernova{
+  background-image: url("./supernova.png");
+}
+
+.löschwasser{
+  background-image: url("./löschwasser.png");
+}
+
+/* COLORS */
+.pink-fill{
+  background: #D98BB2 !important;
+}
+.pink-text{
+  color: #D98BB2 !important;
+}
+
+.green-fill{
+  background: #96D668 !important;
+}
+.green-text{
+  color: #96D668 !important;
+}
+
+.blue-fill{
+  background: #44ABD8 !important;
+}
+.blue-text{
+  color: #44ABD8!important;
+}
+
+.yellow-fill{
+  background: #FFEB00 !important;
+}
+.yellow-text{
+  color: #FFEB00!important;
+}
+
+.white-fill{
+  background: #FFFFFF !important;
+}
+.white-text{
+  color: #FFFFFF!important;
+}
+
+.red-fill{
+  background: #C7362D !important;
+}
+.red-text{
+  color: #C7362D!important;
+}
+
+.gold-fill{
+  background: #B49D5B !important;
+}
+.gold-text{
+  color: #B49D5B!important;
+}
+
+.violet-fill{
+  background: #943C8A !important;
+}
+.violet-text{
+  color: #943C8A !important;
+}
+
+.orange-fill{
+  background: #DA8A1C !important;
+}
+.orange-text{
+  color: #DA8A1C !important;
+}
+
+.silver-fill{
+  background: #BCC0C4 !important;
+}
+.silver-text{
+  color: #BCC0C4 !important;
+}

@@ -1,0 +1,82 @@
+html{
+  padding: 0;
+  background-color: black;
+}
+
+body {
+  position: fixed;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway Dots', cursive;
+  font-size: 44px;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: black;
+
+  text-transform: uppercase;
+}
+
+nav{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+p {
+  margin: 0;
+}
+
+input:focus{
+	outline:0;
+}
+
+input::-webkit-search-decoration
+{
+	display:none;
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    font-size:35px;
+  }
+
+  .line{
+    line-height:35px !important;
+    height: 35px !important;
+    margin-top: 3px;
+  }
+
+  .Search input{
+    font-size: 35px;
+  }
+
+  .icon{
+    top: 16px !important;
+  }
+
+  .stufe-gross{
+    font-size: 288px;
+    text-align: center;
+    line-height: 220px;
+    padding-top: 0px;
+    margin-top: 35px !important;
+    margin-bottom: 10px !important;
+  }
+
+
+
+}

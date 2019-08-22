@@ -1,0 +1,49 @@
+.Button{
+  overflow: hidden;
+  transition: margin 0.5s;
+}
+
+.upper-part{
+  position: relative;
+  margin-bottom: -30px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+}
+
+.lower-part{
+  margin-bottom: -10px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.icon{
+  position: absolute;
+  top: 5px;
+}
+
+.check{
+  margin-left: 8px;
+  margin-top: -4px;
+}
+
+.skip{
+  margin-left: 12px;
+  margin-top: -4px;
+}
+
+.flash{
+  margin-left: 13px;
+}
+
+.transitioning{
+  transition: margin-bottom 0.3s;
+}
+
+.untouchable{
+  pointer-events: none;
+}
+
+.hidden{
+  margin-bottom: -150px;
+}

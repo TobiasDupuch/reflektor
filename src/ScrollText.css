@@ -1,0 +1,11 @@
+.ScrollText{
+white-space: nowrap;
+display:inline-block;
+transition: margin-left 2s ease-in-out;
+margin-left: 0px;
+padding-left: 10px;
+}
+
+.ScrollText p{
+  text-align: right;
+}
