@@ -4,3 +4,4 @@
 src/firebase.js
 .firebaserc
 .firebase/hosting.YnVpbGQ.cache
+*.icloud

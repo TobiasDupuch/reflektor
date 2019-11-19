@@ -59,6 +59,9 @@ function color2english(colorcode){
       code : '#BCC0C4'
     }
   }
+  else{
+    console.log(colorcode + "not found");
+  }
 
 }
 

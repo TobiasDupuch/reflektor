@@ -1,165 +1,5 @@
 const problems = [
   {
-   "name": "Nagmiramsaki",
-   "url": "http://topo.blockfeld.ch/topo/show/895",
-   "grad": "2",
-   "sektor": "Supernova",
-   "stil": "Überhang",
-   "schrauber": "Simon Räss",
-   "farbe": "943C8A",
-   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_895.png"
-  },
-  {
-   "name": "Mingu Mihama",
-   "url": "http://topo.blockfeld.ch/topo/show/894",
-   "grad": "1",
-   "sektor": "Supernova",
-   "stil": "Überhang",
-   "schrauber": "An Le",
-   "farbe": "D98BB2",
-   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_894.png"
-  },
-  {
-   "name": "Hinderdohre",
-   "url": "http://topo.blockfeld.ch/topo/show/893",
-   "grad": "4",
-   "sektor": "Supernova",
-   "stil": "Überhang",
-   "schrauber": "Daniel Brunner",
-   "farbe": "FFFFFF",
-   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_893.png"
-  },
-  {
-   "name": "iHaudiblau",
-   "url": "http://topo.blockfeld.ch/topo/show/892",
-   "grad": "4",
-   "sektor": "Supernova",
-   "stil": "Highball",
-   "schrauber": "Daniel Brunner",
-   "farbe": "44ABD8",
-   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_892.png"
-  },
-  {
-   "name": "Campussy",
-   "url": "http://topo.blockfeld.ch/topo/show/891",
-   "grad": "5",
-   "sektor": "Supernova",
-   "stil": "Überhang",
-   "schrauber": "Daniel Brunner",
-   "farbe": "FFEB00",
-   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_891.png"
-  },
-  {
-   "name": "Mein erstes Mahl",
-   "url": "http://topo.blockfeld.ch/topo/show/890",
-   "grad": "1",
-   "sektor": "Supernova",
-   "stil": "Überhang",
-   "schrauber": "Daniel Brunner",
-   "farbe": "C7362D",
-   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_890.png"
-  },
-  {
-   "name": "Regenfänger",
-   "url": "http://topo.blockfeld.ch/topo/show/889",
-   "grad": "2",
-   "sektor": "Supernova",
-   "stil": "Überhang",
-   "schrauber": "An Le",
-   "farbe": "C7362D",
-   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_889.png"
-  },
-  {
-   "name": "Pappeier-Salat",
-   "url": "http://topo.blockfeld.ch/topo/show/888",
-   "grad": "3",
-   "sektor": "Supernova",
-   "stil": "Überhang",
-   "schrauber": "An Le",
-   "farbe": "D98BB2",
-   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_888.png"
-  },
-  {
-   "name": "Zipfeli",
-   "url": "http://topo.blockfeld.ch/topo/show/887",
-   "grad": "4",
-   "sektor": "Supernova",
-   "stil": "Überhang",
-   "schrauber": "An Le",
-   "farbe": "44ABD8",
-   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_887.png"
-  },
-  {
-   "name": "Bergkristall",
-   "url": "http://topo.blockfeld.ch/topo/show/886",
-   "grad": "2",
-   "sektor": "Ikarus",
-   "stil": "Überhang",
-   "schrauber": "Tom Godano",
-   "farbe": "FFFFFF",
-   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_886.png"
-  },
-  {
-   "name": "im Zeichen der Jungfrau",
-   "url": "http://topo.blockfeld.ch/topo/show/885",
-   "grad": "6",
-   "sektor": "Ikarus",
-   "stil": "Überhang",
-   "schrauber": "Daniel Brunner",
-   "farbe": "943C8A",
-   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_885.png"
-  },
-  {
-   "name": "Pausäglon",
-   "url": "http://topo.blockfeld.ch/topo/show/884",
-   "grad": "5",
-   "sektor": "Ikarus",
-   "stil": "Überhang",
-   "schrauber": "Daniel Brunner",
-   "farbe": "44ABD8",
-   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_884.png"
-  },
-  {
-   "name": "Robotop",
-   "url": "http://topo.blockfeld.ch/topo/show/883",
-   "grad": "3",
-   "sektor": "Ikarus",
-   "stil": "Überhang",
-   "schrauber": "Daniel Brunner",
-   "farbe": "C7362D",
-   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_883.png"
-  },
-  {
-   "name": "Meier's Eier",
-   "url": "http://topo.blockfeld.ch/topo/show/882",
-   "grad": "1",
-   "sektor": "Ikarus",
-   "stil": "Überhang",
-   "schrauber": "Julian Meier",
-   "farbe": "FFEB00",
-   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_882.png"
-  },
-  {
-   "name": "Carrément dure",
-   "url": "http://topo.blockfeld.ch/topo/show/881",
-   "grad": "4",
-   "sektor": "Ikarus",
-   "stil": "Überhang",
-   "schrauber": "Daniel Brunner",
-   "farbe": "FFFFFF",
-   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_881.png"
-  },
-  {
-   "name": "Langer Weg, kurzer Sinn",
-   "url": "http://topo.blockfeld.ch/topo/show/880",
-   "grad": "5",
-   "sektor": "Ikarus",
-   "stil": "Überhang",
-   "schrauber": "Tom Godano",
-   "farbe": "B49D5B",
-   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_880.png"
-  },
-  {
    "name": "Kehrsicht",
    "url": "http://topo.blockfeld.ch/topo/show/879",
    "grad": "2",
@@ -1190,6 +1030,16 @@ const problems = [
    "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_777.png"
   },
   {
+   "name": "Argos",
+   "url": "http://topo.blockfeld.ch/topo/show/756",
+   "grad": "2",
+   "sektor": "Ikarus",
+   "stil": "Kinder",
+   "schrauber": "Daniel Brunner",
+   "farbe": "96D668",
+   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_756.png"
+  },
+  {
    "name": "Shrimps",
    "url": "http://topo.blockfeld.ch/topo/show/754",
    "grad": "3",
@@ -1990,14 +1840,165 @@ const problems = [
    "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_675.png"
   },
   {
+   "name": "Schleimspur",
+   "url": "http://topo.blockfeld.ch/topo/show/640",
+   "grad": "5",
+   "sektor": "Ikarus",
+   "stil": "Überhang",
+   "schrauber": "Daniel Brunner",
+   "farbe": "FFFFFF",
+   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_640.png"
+  },
+  {
+   "name": "Buko Juice",
+   "url": "http://topo.blockfeld.ch/topo/show/638",
+   "grad": "3",
+   "sektor": "Ikarus",
+   "stil": "Überhang",
+   "schrauber": "Julian Meier",
+   "farbe": "BCCQC4",
+   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_638.png"
+  },
+  {
+   "name": "Trojanisches Pferd",
+   "url": "http://topo.blockfeld.ch/topo/show/637",
+   "grad": "2",
+   "sektor": "Ikarus",
+   "stil": "Kinder",
+   "schrauber": "Julian Meier",
+   "farbe": "C7362D",
+   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_637.png"
+  },
+  {
+   "name": "Shmoney dance",
+   "url": "http://topo.blockfeld.ch/topo/show/636",
+   "grad": "4",
+   "sektor": "Ikarus",
+   "stil": "Überhang",
+   "schrauber": "Julian Meier",
+   "farbe": "D98BB2",
+   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_636.png"
+  },
+  {
+   "name": "Gletscherschmelze",
+   "url": "http://topo.blockfeld.ch/topo/show/635",
+   "grad": "3",
+   "sektor": "Ikarus",
+   "stil": "Überhang",
+   "schrauber": "An Le",
+   "farbe": "FFFFFF",
+   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_635.png"
+  },
+  {
+   "name": "Flipp'ge Brüder",
+   "url": "http://topo.blockfeld.ch/topo/show/634",
+   "grad": "6",
+   "sektor": "Ikarus",
+   "stil": "Überhang",
+   "schrauber": "Daniel Brunner",
+   "farbe": "B49D5B",
+   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_634.png"
+  },
+  {
+   "name": "Neben Sechuan (kurz)",
+   "url": "http://topo.blockfeld.ch/topo/show/633",
+   "grad": "5",
+   "sektor": "Ikarus",
+   "stil": "Überhang",
+   "schrauber": "Daniel Brunner",
+   "farbe": "44ABD8",
+   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_633.png"
+  },
+  {
+   "name": "Wunder der Wälder",
+   "url": "http://topo.blockfeld.ch/topo/show/632",
+   "grad": "3",
+   "sektor": "Ikarus",
+   "stil": "Überhang",
+   "schrauber": "Daniel Brunner",
+   "farbe": "C7362D",
+   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_632.png"
+  },
+  {
+   "name": "Gentlemen",
+   "url": "http://topo.blockfeld.ch/topo/show/630",
+   "grad": "5",
+   "sektor": "Supernova",
+   "stil": "Überhang",
+   "schrauber": "Daniel Brunner",
+   "farbe": "FFEB00",
+   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_630.png"
+  },
+  {
+   "name": "Rumpelstilz",
+   "url": "http://topo.blockfeld.ch/topo/show/629",
+   "grad": "4",
+   "sektor": "Supernova",
+   "stil": "Überhang",
+   "schrauber": "Daniel Brunner",
+   "farbe": "FFFFFF",
+   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_629.png"
+  },
+  {
+   "name": "Glutenfrei",
+   "url": "http://topo.blockfeld.ch/topo/show/627",
+   "grad": "2",
+   "sektor": "Supernova",
+   "stil": "Highball",
+   "schrauber": "Julian Meier",
+   "farbe": "D98BB2",
+   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_627.png"
+  },
+  {
+   "name": "Tribun",
+   "url": "http://topo.blockfeld.ch/topo/show/626",
+   "grad": "3",
+   "sektor": "Supernova",
+   "stil": "Überhang",
+   "schrauber": "Julian Meier",
+   "farbe": "DA8A1C",
+   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_626.png"
+  },
+  {
+   "name": "Powerfrau",
+   "url": "http://topo.blockfeld.ch/topo/show/625",
+   "grad": "3",
+   "sektor": "Supernova",
+   "stil": "Überhang",
+   "schrauber": "Daniel Brunner",
+   "farbe": "B49D5B",
+   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_625.png"
+  },
+  {
+   "name": "Babu Bloc",
+   "url": "http://topo.blockfeld.ch/topo/show/624",
+   "grad": "5",
+   "sektor": "Supernova",
+   "stil": "Überhang",
+   "schrauber": "Daniel Brunner",
+   "farbe": "44ABD8",
+   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_624.png"
+  },
+  {
+   "name": "Ostermarsch",
+   "url": "http://topo.blockfeld.ch/topo/show/623",
+   "grad": "3",
+   "sektor": "Supernova",
+   "stil": "Überhang",
+   "schrauber": "Julian Meier",
+   "farbe": "FFEB00",
+   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_623.png"
+  },
+  {
    "name": "Männerboulder",
    "url": "http://topo.blockfeld.ch/topo/show/564",
    "grad": "4",
    "sektor": "Zerstörer",
    "stil": "Überhang",
    "schrauber": "Daniel Brunner",
-   "farbe": "FFEB00"
- }
-]
+   "farbe": "FFEB00",
+   "map": "http://topo.blockfeld.ch/assets/img/boulder/boulder_564.png"
+  }
+ ]
 
-export default problems;
+ export default problems;
